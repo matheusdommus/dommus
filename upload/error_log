@@ -1,0 +1,16 @@
+[17-Oct-2018 12:27:59 UTC] PHP Warning:  move_uploaded_file(upload/BLUEPRINT_03.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:27:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpgc4gFW' to 'upload/BLUEPRINT_03.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:28:26 UTC] PHP Warning:  move_uploaded_file(upload/BLUEPRINT_03.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:28:26 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpJye7fD' to 'upload/BLUEPRINT_03.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:29:40 UTC] PHP Warning:  move_uploaded_file(upload/BLUEPRINT_03.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:29:40 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phppjMitw' to 'upload/BLUEPRINT_03.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:29:47 UTC] PHP Warning:  move_uploaded_file(upload/BLUEPRINT_03.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:29:47 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpIsqlDa' to 'upload/BLUEPRINT_03.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:35:36 UTC] PHP Warning:  move_uploaded_file(upload/default.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:35:36 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpZWzISA' to 'upload/default.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:46:34 UTC] PHP Warning:  move_uploaded_file(upload/BLUEPRINT_03.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:46:34 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phprHMCHj' to 'upload/BLUEPRINT_03.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:46:41 UTC] PHP Warning:  move_uploaded_file(upload/val-vesa-774719-unsplash.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 12:46:41 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpeXtdYM' to 'upload/val-vesa-774719-unsplash.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 21:19:46 UTC] PHP Warning:  move_uploaded_file(upload/IMG-20181017-WA0010.jpg): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15
+[17-Oct-2018 21:19:46 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxOVqQQ' to 'upload/IMG-20181017-WA0010.jpg' in /home/dommus/public_html/homologacao2/nova-ui/upload/upload.php on line 15

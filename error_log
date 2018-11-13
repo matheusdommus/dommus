@@ -1,0 +1,8 @@
+[10-Oct-2018 16:47:19 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/dommus/public_html/homologacao2/nova-ui/header.php on line 52
+[10-Oct-2018 16:47:19 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/dommus/public_html/homologacao2/nova-ui/header.php on line 52
+[10-Oct-2018 17:57:17 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/dommus/public_html/homologacao2/nova-ui/index.php on line 63
+[10-Oct-2018 17:57:18 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/dommus/public_html/homologacao2/nova-ui/index.php on line 63
+[16-Oct-2018 19:26:46 UTC] PHP Warning:  require_once(inc/avalista.php): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/index.php on line 443
+[16-Oct-2018 19:26:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc/avalista.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/dommus/public_html/homologacao2/nova-ui/index.php on line 443
+[18-Oct-2018 12:12:04 UTC] PHP Warning:  require_once(inc/validar-fluxo.php): failed to open stream: No such file or directory in /home/dommus/public_html/homologacao2/nova-ui/index.php on line 413
+[18-Oct-2018 12:12:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'inc/validar-fluxo.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/dommus/public_html/homologacao2/nova-ui/index.php on line 413

@@ -1,0 +1,180 @@
+.graph-title{
+  padding: 15px;
+  background-color: var(--dommus-color);
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.graphics-dashboard .toggle-empreendimento img{
+  width: 25px;
+  max-width: 100%;
+}
+.graphics-dashboard .graph{
+  margin-bottom: 15px;
+  position: relative;
+}
+.graphics-dashboard .graph .highcharts-container {
+  width: 100%!important;
+  background-color: #fff;
+}
+.graphics-dashboard .graph .velocidade-vendas{
+  background-color: #fff;
+}
+.graphics-dashboard .graph svg{
+  width: 100%;
+}
+.graphics-dashboard .graph #vendas-empreendimento{
+  min-width: 100%;
+}
+.graphics-dashboard .graph .menu-empreendimento{
+  position: absolute;
+  top: 65px;
+  z-index: 99;
+  right: 15px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  display: none;
+}
+.graphics-dashboard .graph .menu-empreendimento::after{
+  content: '';
+	position: absolute;
+	top: 0;
+	right:7px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #ffffff;
+	border-top: 0;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+.graphics-dashboard .graph .menu-empreendimento .bootstrap-select{
+  width: 100%;
+}
+.graphics-dashboard .graph .menu-empreendimento .filtro-empreendimento{
+  padding: 15px 15px 0;
+  list-style-type: none;
+  margin-bottom: 0;
+  border-bottom: 1px solid #ddd;
+}
+.graphics-dashboard .graph .menu-empreendimento .filtro-empreendimento .empreedimento-title{
+  color: #0a71b2;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.graphics-dashboard .graph .menu-empreendimento .opcoes-empreendimento{
+  padding: 15px;
+  list-style-type: none;
+  overflow-y: overlay;
+  max-height: 150px;
+}
+.graphics-dashboard .graph .menu-empreendimento .opcoes-empreendimento::-webkit-scrollbar-track{
+  background-color: #ddd;
+}
+.graphics-dashboard .graph .menu-empreendimento .opcoes-empreendimento::-webkit-scrollbar{
+	width:8px;
+	background-color: #ddd;
+  border-radius: 10px;
+}
+.graphics-dashboard .graph .menu-empreendimento .opcoes-empreendimento::-webkit-scrollbar-thumb{
+	background-color: var(--dommus-color);
+  border-radius: 10px;
+}
+.graphics-dashboard .graph .menu-empreendimento .opcoes-empreendimento li{
+  padding-bottom: 3px;
+}
+.velocidade-vendas .highcharts-plot-background{
+	height: 200px;
+}
+#container-speed svg{
+  width: 100%;
+}
+#vaiaricao-crescimento svg .highcharts-series-group .highcharts-point{
+  fill: #8BC34A;
+}
+#vaiaricao-crescimento svg .highcharts-series-group .highcharts-negative{
+  fill:#f44336;
+}
+.highcharts-yaxis-grid .highcharts-grid-line {
+	display: none;
+}
+.top-corretores{
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+.top-corretores ul{
+  padding: 0;
+  list-style-type: decimal;
+  margin-bottom: 0;
+}
+.top-corretores ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ddd;
+}
+.top-corretores ul li:last-child{
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.top-corretores ul li .corretor-nome{
+  color: #3f4047;
+  font-size: 14px;
+}
+.top-corretores ul li .vl-vendas{
+  color: var(--dommus-color-2);
+  font-weight: 700;
+  font-size: 14px;
+}
+.total-vendas{
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+.total-vendas ul{
+  padding: 0;
+  list-style-type: decimal;
+  margin-bottom: 0;
+}
+.total-vendas ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ddd;
+}
+.total-vendas ul li:last-child{
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.total-vendas ul li .empreendimento-nome {
+  color: #3f4047;
+  font-size: 14px;
+}
+.total-vendas ul li .qnt-vendas{
+  color: var(--dommus-color-2);
+  font-weight: 700;
+  font-size: 14px;
+}
+@media (max-width: 600px) {
+	.velocidade-vendas {
+		width: 100%;
+		height: auto;
+	}
+
+}
